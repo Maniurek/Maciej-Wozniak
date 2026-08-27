@@ -4,7 +4,7 @@ title: "About"
 
 <br>
 
- <img src="https://i.ibb.co/NnTnRyBd/DSC-8318-CROPPED.jpgg" style="float: right; margin-top: 0.8rem; margin-left: 0.1rem;  max-width: 45%; height: auto;">
+ <img src="https://i.ibb.co/vx1GSzHp/DSC-8319-CROPPED.jpg" style="float: right; margin-top: 0.8rem; margin-left: 0.1rem;  max-width: 45%; height: auto;">
 
  ## **About me** / contact 
  
@@ -15,8 +15,7 @@ title: "About"
 
 I am a film editor, based in Poland. <br> I've studied film editing at [Lodz Film School](https://www.filmschool.lodz.pl/en/).
 <br> 
-<br>
-<br>
+
 If you wish to contact me, you can do it here:
 
 / <a href="mailto:maciejwozniak42@gmail.com" >`maciejwozniak42@gmail.com`</a>

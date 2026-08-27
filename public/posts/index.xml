@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/Maciej-Wozniak/posts/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Maciej-Wozniak/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intimate Scenes</title>
-      <link>http://localhost:1313/posts/intimate_scenes/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/intimate_scenes/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/intimate_scenes/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/intimate_scenes/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/zWbcwRzK/vlc-HSm-LE6slv-Q.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Kwiaty Cudzych Łąk</title>
-      <link>http://localhost:1313/posts/kwiaty_cudzych_lak/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/kwiaty_cudzych_lak/</link>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kwiaty_cudzych_lak/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/kwiaty_cudzych_lak/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/YB2YyJt1/kcl1.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Kepler - 452</title>
-      <link>http://localhost:1313/posts/kepler---452/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/kepler---452/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kepler---452/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/kepler---452/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/3yck6XKf/K3.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Master of Ceremony</title>
-      <link>http://localhost:1313/posts/master-of-ceremony/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/master-of-ceremony/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/master-of-ceremony/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/master-of-ceremony/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/QFhghS4n/m3.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Soap Opera</title>
-      <link>http://localhost:1313/posts/soap_opera/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/soap_opera/</link>
       <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/soap_opera/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/soap_opera/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/LqxZNC2/SO6.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Rush</title>
-      <link>http://localhost:1313/posts/silent-disco/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/silent-disco/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/silent-disco/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/silent-disco/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/Hf7SGrSr/r2.png&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Strąk Feeling</title>
-      <link>http://localhost:1313/posts/strak_feeling/</link>
+      <link>http://localhost:1313/Maciej-Wozniak/posts/strak_feeling/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/strak_feeling/</guid>
+      <guid>http://localhost:1313/Maciej-Wozniak/posts/strak_feeling/</guid>
       <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/Kjtq6V44/sf3.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>

@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/intimate_scenes/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/intimate_scenes/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kwiaty_cudzych_lak/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/kwiaty_cudzych_lak/</loc>
     <lastmod>2026-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kepler---452/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/kepler---452/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/master-of-ceremony/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/master-of-ceremony/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/soap_opera/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/soap_opera/</loc>
     <lastmod>2024-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/silent-disco/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/silent-disco/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/strak_feeling/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/posts/strak_feeling/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/Maciej-Wozniak/tags/</loc>
   </url>
 </urlset>
