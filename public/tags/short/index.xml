@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Short on </title>
+    <link>http://localhost:1313/tags/short/</link>
+    <description>Recent content in Short on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/short/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intimate Scenes</title>
+      <link>http://localhost:1313/posts/intimate_scenes/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/intimate_scenes/</guid>
+      <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/zWbcwRzK/vlc-HSm-LE6slv-Q.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Kwiaty Cudzych Łąk</title>
+      <link>http://localhost:1313/posts/kwiaty_cudzych_lak/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kwiaty_cudzych_lak/</guid>
+      <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/HfxdW339/chrome-gd-Sp-FDb6nc.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Soap Opera</title>
+      <link>http://localhost:1313/posts/soap_opera/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/soap_opera/</guid>
+      <description>&lt;div style=&#34;display: flex; gap: 100px; align-items: flex-start;&#34;&gt;&#xD;&#xA;&lt;div class=&#34;portfolio-thumb&#34;&gt;&#xD;&#xA;    &lt;figure&gt;&lt;img src=&#34;https://i.ibb.co/RTMXyB6H/chrome-N9x-E9q8-Pty.jpg&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
