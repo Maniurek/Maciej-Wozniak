@@ -43,7 +43,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo build \
+          hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
