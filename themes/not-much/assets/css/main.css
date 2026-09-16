@@ -447,3 +447,26 @@ table tr {
     padding: 0 !important;
 }
 
+/* Vibecoded Mobile Navigation & Header Spacing Override */
+@media (max-width: 768px) {
+  /* 1. Halve the top/bottom spacing around the main header container */
+  header, nav, .header, .nav {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  /* 2. Tighten vertical gap between home / projects / about links */
+  header a, nav a, .nav-link {
+    margin-bottom: 0.25rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  /* 3. Reduce top offset on the main page wrapper if body/main has default padding */
+  main, #content, .container {
+    padding-top: 1rem !important;
+  }
+}
+

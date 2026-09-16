@@ -23,9 +23,11 @@
               Updated: <time datetime="{{ $lastModMachine }}">{{ $lastModHuman }}</time>
             </li>
             {{ end }}
+            {{ with .Params.length }}
             <li class="breadcrumb-item small">
-              {{ printf "%d minutes" .ReadingTime }}
+              {{ . }} minutes
             </li>
+            {{ end }}
           </ol>
         </div>
       </header>
