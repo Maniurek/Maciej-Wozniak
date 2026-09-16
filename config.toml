@@ -22,10 +22,11 @@ showPostsSummary = true
 
 # Giscus Comment System
 [params.giscus]
-repository = "username/repository"
-repositoryId = "repositoryId"
-categoryName = "categoryName"
-categoryId = "categoryId"
+enable = false
+repository = ""
+repositoryId = ""
+categoryName = ""
+categoryId = ""
 mapping = "pathname"
 theme = "preferred_color_scheme"
 language = "en"
