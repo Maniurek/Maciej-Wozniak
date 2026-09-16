@@ -4,8 +4,7 @@ title = ""
 theme = "not-much"
 languageCode = "en-us"
 baseURL = "https://maciej-wozniak.com/"
-relativeURLs = true
-canonifyURLs = false
+
 
 [markup]
   [markup.highlight]

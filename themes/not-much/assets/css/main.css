@@ -10,7 +10,7 @@ body, main {
   font-family: 'Literata', serif !important;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: .95em;
+  font-size: 1rem;
   font-weight: normal;
   color: var(--font-color) !important;
 }
@@ -288,7 +288,7 @@ li > input[type=checkbox] {
     position: fixed !important;
     right: calc(50% - 360px - 20px); /* 720px / 2 */
     margin-right: 1.5rem;
-    opacity: 0.2;
+    opacity: 2;
     /* Opacity Transition */
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -304,7 +304,7 @@ li > input[type=checkbox] {
 
     &:hover {
       margin-right: 2.3rem;
-      opacity: 1;
+      opacity: 2;
     }
   }
 }
@@ -375,3 +375,75 @@ hr {
 .giscus {
   padding-top: 1.5rem;
 }
+
+table td {
+    vertical-align: top !important;
+}
+
+.portfolio-thumb img {
+    width: 100rem; /* Desired width */
+    object-fit: cover; /* This is the "Crop" magic */
+   
+}
+
+
+/* Remove the light grey background from table headers */
+table th {
+    background-color: transparent !important;
+    background: none !important;
+    border: none !important; /* Optional: clears out any header lines if they appear */
+}
+
+a.project-card-link {
+    text-decoration: none !important;
+}
+a.project-card-link .list-post-title {
+    text-decoration: none !important;
+}
+
+a.project-card-link:hover .list-post-title {
+    text-decoration: underline !important;
+}
+
+a.project-card-link .portfolio-thumb img {
+    transition: opacity 0.25s ease-in-out !important;
+    opacity: 1;
+}
+
+a.project-card-link:hover .portfolio-thumb img {
+    opacity: 0.5 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 5rem !important;
+}
+
+.content h3, article h3, h3 {
+    font-size: 1.5rem !important; 
+
+}
+
+::selection {
+    background-color: #e5e5e5 !important; /* Elegant light grey block for light mode */
+    color: #141414 !important;            /* Keeps the text sharp and dark grey/black */
+}
+
+/* Firefox specific support override */
+::-moz-selection {
+    background-color: #e5e5e5 !important;
+    color: #141414 !important;
+}
+
+/* Target ALL tables directly on the site, bypassing class wrappers */
+table td,
+table th {
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+    line-height: 0.8rem !important;
+}
+
+table tr {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
