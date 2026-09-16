@@ -6,19 +6,25 @@ title: "About"
 
 <br>
 
- <img src="https://i.ibb.co/vx1GSzHp/DSC-8319-CROPPED.jpg" style="float: right; margin-top: 0.8rem; margin-left: 0.1rem;  max-width: 45%; height: auto;">
-
  ## **About me** / contact 
  
- <br>
- 
+ <img src="https://i.ibb.co/vx1GSzHp/DSC-8319-CROPPED.jpg" style="float: right; margin-top: 2rem; margin-left: 0.01rem;  max-width: 50%; height: auto;">
 
+<br>
 
-
-I am a film editor, based in Poland. <br> I've studied film editing at [Lodz Film School](https://www.filmschool.lodz.pl/en/).
+I am a film editor, based in Poland. 
+<br>
+I've studied film editing at
+<br>
+ [Lodz Film School](https://www.filmschool.lodz.pl/en/).
 <br> 
+<br>
 
-If you wish to contact me, you can do it here:
+If you wish to contact me, 
+<br>
+you can do it here:
+
+<br>
 
 / <a href="mailto:maciejwozniak42@gmail.com" >`maciejwozniak42@gmail.com`</a>
 
