@@ -43,13 +43,13 @@ lazyLoading = true
     identifier = "posts"
     name = "projects"
     title = "projects"
-    url = "/posts"
+    url = "/posts/"
     weight = 2
   
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
-    url = "/about"
+    url = "/about/"
     weight = 3
 	
