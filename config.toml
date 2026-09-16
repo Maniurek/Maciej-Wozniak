@@ -3,7 +3,9 @@
 title = ""
 theme = "not-much"
 languageCode = "en-us"
-baseURL = "https://maniurek.github.io/Maciej-Wozniak/"
+baseURL = "https://maciej-wozniak.com/"
+relativeURLs = true
+canonifyURLs = false
 
 [markup]
   [markup.highlight]
