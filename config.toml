@@ -50,6 +50,6 @@ lazyLoading = true
     identifier = "about"
     name = "about"
     title = "about"
-    url = "/about/"
+    url = "/#about/"
     weight = 3
 	
