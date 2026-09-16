@@ -52,4 +52,10 @@ lazyLoading = true
     title = "about"
     pageRef = "/about"
     weight = 3
+
+# Vibecoding	
 	
+[outputs]
+	home = ["HTML", "RSS"]
+	section = ["HTML"] 
+	page = ["HTML"]
