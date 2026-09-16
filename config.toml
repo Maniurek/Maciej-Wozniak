@@ -33,23 +33,17 @@ lazyLoading = true
 
 # Navigation
   [[menu.main]]
-    identifier = "home"
     name = "home"
-    title = "Home"
     url = "/"
     weight = 1
   
   [[menu.main]]
-    identifier = "posts"
     name = "projects"
-    title = "projects"
     url = "/posts/"
     weight = 2
   
   [[menu.main]]
-    identifier = "about"
     name = "about"
-    title = "about"
-    url = "/#about/"
+    url = "/about"
     weight = 3
 	
