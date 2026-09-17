@@ -1,0 +1,79 @@
+{{ define "main" }}
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">{{ .Title }}</h1>
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              {{ if .Draft }}
+              <span class="draft-label">DRAFT</span> &#183;
+              {{ end }}
+              <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            </li>
+            {{ $lastModMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ if and (isset .Params "lastmod") (ne $lastModMachine $dateMachine) }}
+            {{ $lastModHuman := .Lastmod | time.Format ":date_long" }}
+            <li class="breadcrumb-item small">
+              Updated: <time datetime="{{ $lastModMachine }}">{{ $lastModHuman }}</time>
+            </li>
+            {{ end }}
+            {{ with .Params.length }}
+            <li class="breadcrumb-item small">
+              {{ . }} minutes
+            </li>
+            {{ end }}
+          </ol>
+        </div>
+      </header>
+      {{ if .Params.toc }}
+      <div class="toc small">
+        <p class="toc-title fw-semibold">
+          Table of Contents:
+        </p>
+        {{ .TableOfContents }}
+      </div>
+      {{ end }}
+      <article>
+        {{ .Content }}
+      </article>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      {{ partial "post-pagination.html" . }}
+      {{ if .Params.comments }}
+        {{ partial "comments.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tocContainer = document.getElementById("TableOfContents");
+        // Find your main project title header on the page
+        const projectTitleElement = document.querySelector("h1");
+
+        if (tocContainer && projectTitleElement) {
+            // Extract the text content (e.g., "INTIMATE SCENES") and make it lowercase
+            const titleText = projectTitleElement.textContent.trim().toLowerCase();
+
+            // Create a clean standalone container for the top link
+            const topLinkDiv = document.createElement("div");
+            topLinkDiv.style.marginBottom = "8px";
+            topLinkDiv.style.fontFamily = "monospace";
+            topLinkDiv.style.textTransform = "uppercase"; // Extra safety formatting
+
+            // Insert the active link with the custom title name
+            topLinkDiv.innerHTML = `<a href="#" class="toc-top-link" style="text-decoration: none; color: inherit;"> ${titleText}</a>`;
+            
+            // Insert it cleanly at the very top of the TOC box
+            tocContainer.insertBefore(topLinkDiv, tocContainer.firstChild);
+        }
+    });
+</script>
+  {{ end }}
