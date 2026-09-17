@@ -1,55 +1,126 @@
 ---
-
 title: "About"
-
 ---
 
-<br>
+## **About me** / contact
 
- ## **About me** / contact 
- 
- <img src="https://i.ibb.co/vx1GSzHp/DSC-8319-CROPPED.jpg" style="float: left; margin-top: 2rem; margin-left: 0rem; margin-right: 2rem; max-width: 50%; height: auto;">
+<div class="about-grid">
+<div class="about-image">
+<img src="https://i.ibb.co/vx1GSzHp/DSC-8319-CROPPED.jpg" alt="Maciej Woźniak">
+</div>
 
-<br>
+<div class="about-content">
+<div class="about-bio">
+<p>Film editor,<br>based in Poland.</p>
+<p>Studied at<br><a href="https://www.filmschool.lodz.pl/en/">Lodz Film School</a>.</p>
+</div>
 
-Film editor, 
-<br>
-based in Poland. 
-<br>
-<br>
-Studied at
-<br>
- [Lodz Film School](https://www.filmschool.lodz.pl/en/).
- 
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- 
+<div class="about-contact">
+<div class="contact-row">
+<span>/&nbsp;</span>
+<a href="mailto:maciejwozniak42@gmail.com" class="email-split"><code>maciejwozniak42</code><code>@gmail.com</code></a>
+</div>
 
-/ <a href="mailto:maciejwozniak42@gmail.com" >`maciejwozniak42@gmail.com`</a>
+<div class="contact-row">
+<span>/&nbsp;</span>
+<a href="https://www.facebook.com/Mmaciek.wozniak/"><code>facebook</code></a>
+</div>
 
-/ [`facebook`](https://www.facebook.com/Mmaciek.wozniak/) 
-<br> 
- 
- / `+48 884 646 249`
+<div class="contact-row">
+<span>/&nbsp;</span>
+<code>+48 884 646 249</code>
+</div>
+</div>
+</div>
+</div>
 
+<style>
+.about-grid {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: stretch;
+}
 
-<br><br>
+.about-image {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
 
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
 
+.about-bio p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
 
+.about-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
 
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+}
 
+/* DESKTOP DEFAULT: Single line email */
+.email-split {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0;
+  color: inherit;
+  text-decoration: none;
+  margin-left: 0.25rem; /* Aligns email start with standard code tags below */
+}
 
-<br>
+.email-split code {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
 
-<div style="clear: both;"></div>
+.about-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about-contact a:hover {
+  text-decoration: underline;
+}
+
+/* MOBILE OVERRIDES (650px or narrower) */
+@media (max-width: 650px) {
+  .about-grid {
+    gap: 1rem;
+  }
+
+  .about-image {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  /* Stacks email into 2 left-aligned rows aligned with the items below */
+  .email-split {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+</style>
 
 <!---
 

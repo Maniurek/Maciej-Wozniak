@@ -1,6 +1,7 @@
   # **Maciej Woźniak**  / editor
 
-Welcome to my editing porfolio.
+Welcome to my editing porfolio. <br>
+
 
 <BR>
 
