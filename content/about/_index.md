@@ -28,7 +28,7 @@ title: "About"
 
 <div class="contact-row">
 <span>/&nbsp;</span>
-<code>+48 884 646 249</code>
+<code>+48 884 646 294</code>
 </div>
 </div>
 </div>
