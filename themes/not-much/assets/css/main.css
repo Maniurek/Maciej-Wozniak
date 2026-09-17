@@ -447,3 +447,74 @@ table tr {
     padding: 0 !important;
 }
 
+
+
+/* Mobile Spacing Override for Bootstrap Utilities */
+@media (max-width: 768px) {
+  /* 1. Reduce the main container's top padding */
+  main .container.pt-5,
+  main .container {
+    padding-top: 4rem !important;
+	
+  }
+
+  /* 2. Flatten the compounded row margin and padding */
+  main .row.mt-5,
+  main .row.pt-5,
+  main .row {
+    margin-top: 2rem !important;
+    padding-top: 0.5rem !important;
+	
+  }
+}
+
+/* Corrected Media & Embed Responsive Overrides */
+
+/* 1. Standard Images and Native Elements */
+img, 
+figure, 
+video, 
+embed, 
+object, 
+.portfolio-thumb,
+.portfolio-thumb img {
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* 2. Vimeo & YouTube IFrames (Forces 100% width with cinematic 16:9 ratio) */
+iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9 !important;
+  border: 0 !important;
+}
+
+/* 3. Hugo Vimeo Shortcode Wrappers */
+div:has(> iframe),
+.vimeo-player {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* 4. Scroll Protection & Table Handling */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  div[style*="display: flex"] {
+    flex-wrap: wrap !important;
+    gap: 1.5rem !important;
+  }
+}
